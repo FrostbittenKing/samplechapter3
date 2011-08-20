@@ -1,0 +1,202 @@
+--- 
+test_unit:observer: 
+- --skip
+- --pretend
+- --quiet
+- --force
+integration_test: 
+- --skip
+- --pretend
+- --quiet
+- --force
+- --request-specs
+- --integration-tool=
+model: 
+- --skip
+- --pretend
+- --quiet
+- --force
+- --migration
+- --timestamps
+- --parent=
+- --test-framework=
+- --fixture
+- --fixture-replacement=
+- --orm=
+plugin: 
+- --skip
+- --pretend
+- --quiet
+- --force
+- --generator
+- --tasks=
+- --test-framework=
+test_unit:model: 
+- --skip
+- --pretend
+- --quiet
+- --force
+- --fixture
+- --fixture-replacement=
+test_unit:integration: 
+- --skip
+- --pretend
+- --quiet
+- --force
+observer: 
+- --skip
+- --pretend
+- --quiet
+- --force
+- --test-framework=
+- --orm=
+scaffold: 
+- --helper
+- --template-engine=
+- --skip
+- --pretend
+- --quiet
+- --force
+- --migration
+- --timestamps
+- --parent=
+- --test-framework=
+- --fixture
+- --fixture-replacement=
+- --view-specs
+- --webrat-matchers
+- --helper-specs
+- --integration-tool=
+- --routing-specs
+- --singleton
+- --controller-specs
+- --orm=
+- --scaffold-controller=
+- --force-plural
+- --stylesheets
+performance_test: 
+- --skip
+- --pretend
+- --quiet
+- --force
+- --performance-tool=
+session_migration: 
+- --skip
+- --pretend
+- --quiet
+- --force
+- --orm=
+resource: 
+- --skip
+- --pretend
+- --quiet
+- --force
+- --migration
+- --timestamps
+- --parent=
+- --test-framework=
+- --helper
+- --template-engine=
+- --fixture
+- --fixture-replacement=
+- --view-specs
+- --controller-specs
+- --orm=
+- --resource-controller=
+- --force-plural
+- --actions=
+test_unit:mailer: 
+- --skip
+- --pretend
+- --quiet
+- --force
+test_unit:helper: 
+- --skip
+- --pretend
+- --quiet
+- --force
+helper: 
+- --skip
+- --pretend
+- --quiet
+- --force
+- --helper-specs
+- --test-framework=
+rspec:install: 
+- --skip
+- --pretend
+- --quiet
+- --force
+mailer: 
+- --skip
+- --pretend
+- --quiet
+- --force
+- --template-engine=
+- --test-framework=
+test_unit:controller: 
+- --skip
+- --pretend
+- --quiet
+- --force
+scaffold_controller: 
+- --skip
+- --pretend
+- --quiet
+- --force
+- --view-specs
+- --webrat-matchers
+- --helper-specs
+- --integration-tool=
+- --routing-specs
+- --singleton
+- --controller-specs
+- --request-specs
+- --helper
+- --orm=
+- --template-engine=
+- --test-framework=
+- --force-plural
+migration: 
+- --skip
+- --pretend
+- --quiet
+- --force
+- --orm=
+stylesheets: 
+- --skip
+- --pretend
+- --quiet
+- --force
+controller: 
+- --skip
+- --pretend
+- --quiet
+- --force
+- --view-specs
+- --controller-specs
+- --helper
+- --template-engine=
+- --test-framework=
+generator: 
+- --skip
+- --pretend
+- --quiet
+- --force
+- --namespace
+test_unit:scaffold: 
+- --skip
+- --pretend
+- --quiet
+- --force
+- --force-plural
+test_unit:performance: 
+- --skip
+- --pretend
+- --quiet
+- --force
+test_unit:plugin: 
+- --skip
+- --pretend
+- --quiet
+- --force
